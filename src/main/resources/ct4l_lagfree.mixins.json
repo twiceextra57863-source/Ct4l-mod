@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ct4l.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "optimization.FogRendererMixin",
+    "optimization.EntityRenderDispatcherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "optimization.FogRendererMixin",
+    "optimization.EntityRenderDispatcherMixin"
+  ]
+}
