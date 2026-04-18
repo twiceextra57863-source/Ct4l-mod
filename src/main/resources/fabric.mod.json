@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ct4l_lagfree",
+  "version": "${version}",
+  "name": "CT4L LagFree Optimizer",
+  "description": "Extreme rendering optimizer for massive FPS boosts on low-end PCs and Mobile Launchers.",
+  "authors": ["Minecraft Forge AI"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ct4l_lagfree/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ct4l.mod.Ct4lMod"
+    ]
+  },
+  "mixins": [
+    "ct4l_lagfree.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21"
+  }
+}
